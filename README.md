@@ -1,8 +1,9 @@
-# Camera2 Preview
+# Real-Time Edge Detection Viewer
 
 Android camera preview application using Camera2 API. Capturing is implemented in Java but rendering
 in C++ with OpenGL ES/Vulkan using NDK and JNI.
 
+# Features implemented
 - Rendering video using GLSL Shaders with OpenGL ES/Vulkan. App starts with OpenGL ES renderer,
   swipe left initially to use Vulkan renderer.
 - Realtime camera filters. Processing video frames in GLSL Shaders (OpenGL ES) to apply filters.
@@ -30,3 +31,4 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
